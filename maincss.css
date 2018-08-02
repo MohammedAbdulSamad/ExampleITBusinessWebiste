@@ -1,0 +1,147 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    font-family: Century Gothic, Arial;
+}
+
+.topNav {
+    background-color: #e8e8e8;
+    color: black;
+    width: 100%;
+    margin: 0;
+}
+
+/************ Navigation ***********************************/
+.nav {
+    margin-left: auto;
+    margin-right: auto;
+    min-width: 600px;
+    max-width: 1000px;
+    padding: 5px;
+    text-align: center;
+}
+
+.nav a {
+    text-decoration: none;
+    color: black;
+    letter-spacing: 3px;
+    font-weight: bold;
+}
+
+.nav a:hover {
+    color: red;
+}
+
+.nav ul {   
+    list-style-type: none;
+}
+
+.nav li {
+    display: inline;
+    margin: 0 15px;
+}
+/******************************************************************/
+
+
+.content {
+    background-color: #d6d6d6;
+}
+
+/*************** Headline **********************************************/
+.headlineImg {
+    width: 100%;
+    height: 500px;
+    background-color: #515151;
+    position: relative;
+}
+.headlineImageText {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 46px;
+}
+
+.headlineImageButton {
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, -80%);
+}
+
+.headlineImageButton button {
+    background-color: #e2e2e2;
+    border: none;
+    color:#606060;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    border-radius: 12px;
+}
+
+.headlineImageButton button:hover {
+    cursor: pointer;
+    background-color: #bababa;
+}
+/************************************************************************/
+
+.recentProjects {
+    margin-top: 30px;
+    min-width: 600px;
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+
+
+}
+
+.recentProjects h4 {
+    text-align: center;
+    font-weight: 100;
+    font-size: 26px;
+}
+
+.recentProjects h6 {
+    text-align: center;
+    font-size: 12px;
+}
+
+.recentProjects p {
+    text-align: justify;
+    text-justify: inter-word;
+    font-size: 13px;
+}
+
+.recentProjects .col {
+    width: 28%;
+    margin: 0 15px;
+    background-color:#dddddd;
+    box-shadow: 0px 1px 5px #aaaaaa;
+    overflow: hidden;
+    padding: 10px;
+}
+
+.col {
+    width: 33.33%;
+    float: left;
+}
+.row:after {
+    content: "";
+    clear: both;
+    display:table;
+    
+}
+
+.footer {
+    background-color: black;
+    bottom: 0;
+    width: 100%;
+    color: white;
+    padding: 2px 0;
+    text-align: center;
+    margin-top: 20px;
+}
